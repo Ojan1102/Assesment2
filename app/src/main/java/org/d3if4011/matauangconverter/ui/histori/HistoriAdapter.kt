@@ -54,9 +54,10 @@ class HistoriAdapter:
         fun bind(item: ConverterEntity) = with(binding) {
             val hasilConverter = item.hitungConverter()
             tanggalTextView.text = dateFormatter.format(Date(item.tanggal))
+            converterTextView.text = root.context.getString(R.string.data_x, item.jumlahUang)
             dataTextView.text = root.context.getString(
-                R.string.data_x,
-                item.jumlahUang
+                R.string.hasil_xx,
+                item.hasil
             )
 
         }

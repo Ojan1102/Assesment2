@@ -1,4 +1,4 @@
-package org.d3if4011.matauangconverter.ui
+package org.d3if4011.matauangconverter.ui.hitung
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -18,7 +18,8 @@ class HitungViewModel(private val db: ConverterDao) : ViewModel() {
 
     fun hitungConverter (jumlahUang: Float) {
         val dataConverter = ConverterEntity(
-            jumlahUang = jumlahUang
+            jumlahUang = jumlahUang,
+            hasil = jumlahUang / 14300
         )
         hasilConverter.value = dataConverter.hitungConverter()
 

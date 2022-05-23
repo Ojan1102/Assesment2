@@ -8,5 +8,6 @@ data class ConverterEntity (
     @PrimaryKey(autoGenerate = true)
     var id: Long = 0L,
     var tanggal: Long = System.currentTimeMillis(),
-    var jumlahUang: Float
+    var jumlahUang: Float,
+    var hasil: Float
     )

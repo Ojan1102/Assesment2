@@ -3,7 +3,6 @@ package org.d3if4011.matauangconverter.ui.hitung
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import org.d3if4011.matauangconverter.db.ConverterDao
-import org.d3if4011.matauangconverter.ui.HitungViewModel
 import java.lang.IllegalArgumentException
 
 class HitungViewModelFactory (
