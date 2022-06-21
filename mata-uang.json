@@ -1,0 +1,27 @@
+[
+    {
+        "nama": "Ringgit",
+        "negara": "Malaysia",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/188px-Flag_of_Malaysia.svg.png" 
+    },
+    {
+        "nama": "US Dollar",
+        "negara": "Amerika",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/188px-Flag_of_the_United_States_%28Pantone%29.svg.png"
+    },
+    {
+        "nama": "Euro",
+        "negara": "Uni Eropa (19 negara dari 27)",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/188px-Flag_of_Europe.svg.png"
+    },
+    {
+        "nama": "Peso",
+        "negara": "Filipina, Mexico",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/188px-Flag_of_the_Philippines.svg.png"
+    },
+    {
+        "nama": "Yen",
+        "negara": "Jepang",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/188px-Flag_of_Japan.svg.png"
+    }
+]
